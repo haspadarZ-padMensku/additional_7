@@ -177,6 +177,7 @@ module.exports = function solveSudoku(matrix) {
         continue;
       }
     }
+    return null;
   }
 
   return mainSolve(matrix);
